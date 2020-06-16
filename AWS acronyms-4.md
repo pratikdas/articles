@@ -1,22 +1,23 @@
 
 
 
+
 # AWS and Acronyms
 **AWS** - ***Amazon Web Services*** provides a cloud computing platform comprising services under different portfolios like compute, storage, networking, data, etc. AWS is vast and looks daunting to many newcomers. I will attempt to make this easy here by introducing the AWS landscape using **Acronyms**.
 An ***acronym*** is a word formed from the first few letters or groups of letters in a name or phrase. It is a memory technique that helps us associate the information we want to remember with a simple shortcut.
 Today **Acronyms** are dominating all AWS conversations. Everybody uses them, even if they don’t know their name. 
 
-# Create VM with EC2 of AMI type & attached to 1 or more EBS
+# Create VM with EC2 of AMI type & attached to one or more EBS
 We start our AWS **acronym** journey with the humble **VM**- ***Virtual Machine***. A virtual machine is a computer with an OS and RAM on which we run our applications. 
 **EC2** -***Elastic compute*** is the service used to create VMs using an **AMI**. **AMI**- ***Amazon machine image*** can be thought of as a pre-built template containing the OS to be used along with applications installed over it. 
 Each **EC2** instance is backed up by storage in the form of **EBS**-***Elastic Block storage*** which can be attached and mounted as disks to your **VM**. 
 EBS comes in two different flavours- **SSD** ***(Solid-state drive)*** and **HDD** ***(Hard disk drive)*** backed volumes. SSD volumes are of type **GP2** - ***General Purpose*** and Provisioned IOPS (**io1**)- Provisioned Input output storage. HDD volumes are of type Throughput optimized (**st1**) and cold HDD(**sc1**).
 
 # Isolate with Regions and AZs
-An **AWS region** is a physical location containing a group of data centers. Each region is divided into multiple isolated data centers called **AZ**-***Availability Zone***. AWS resources are scoped either to a region or **AZ**, or are global.
+An **AWS region** is a physical location containing a group of data centers. Each region is divided into multiple isolated data centers called **AZ**-***Availability Zone***. AWS resources are scoped either to a region or **AZ** or are global.
 
 # Create your network-VPC
-**VPC**-***Virtual Private Cloud*** is our private network. A **VPC** network is created within an AWS region. We specify a pool of IP addresses for our **VPC** by specifying the IP range in  **CIDR**-***Classless Interdomain routing*** notation. 
+**VPC**-***Virtual Private Cloud*** is our private network. A **VPC** network is created within an **AWS region**. We specify a pool of IP addresses for our **VPC** by specifying the IP range in  **CIDR**-***Classless Interdomain routing*** notation. 
 The **VPC** is divided into multiple subnets each associated with a subset of IP addresses allocated to the parent **VPC**. Our **EC2** instances are launched within a subnet with IP addresses assigned from the subnet's pool of IP addresses. 
 Additionally, you can reserve IPs that are reachable from the internet for your EC2 instances using **EIP**-***Elastic IP Addresses***. 
 
@@ -76,7 +77,7 @@ These do not have acronyms but are among the most important all-pervasive servic
  # Conclusion
  I tried to provide a beginner level introduction to **AWS** using **acronyms**. I covered only the most popular and useful ones from different domains. I hope it will get you excited enough to dig deeper into AWS. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDUxNjkwNCwtMTg0Njg2ODA5NiwtMj
-QzMzk1OTAyLDEwMDI5NTEzMTMsODIwMTY3MTgzLDU0OTMyOTc2
-NiwtNjkzNzA4NDExLDE4NjU1MTYwNjBdfQ==
+eyJoaXN0b3J5IjpbLTYxOTQwNTcyNywxNDgwNTE2OTA0LC0xOD
+Q2ODY4MDk2LC0yNDMzOTU5MDIsMTAwMjk1MTMxMyw4MjAxNjcx
+ODMsNTQ5MzI5NzY2LC02OTM3MDg0MTEsMTg2NTUxNjA2MF19
 -->
