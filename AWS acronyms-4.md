@@ -65,14 +65,14 @@ The server for executing the function is provisioned at the time of invocation. 
 **Lambda** is commonly invoked by events from other AWS services like **API Gateway**, **SQS**, **SNS**, or **Cloudwatch**.
 **SAM**-***Serverless Application Model*** is the framework for developing lambda applications with useful tools like a CLI, a local test environment based on docker, and integration with developer tools. 
  
-# Monitor/Log with Cloudwatch & Audit with Cloudtrail
+# Monitor/Log with CloudWatch & Audit with CloudTrail
 These do not have acronyms but are among the most important all-pervasive services in the AWS portfolio.
 **CloudTrail** captures the audit information telling you who did what and when.
-**Cloudwatch** encompasses services for logging, monitoring, and event handling. 
+**CloudWatch** encompasses services for logging, monitoring, and event handling. 
  
  # Conclusion
  I tried to provide a beginner level introduction to **AWS** using **acronyms**. I covered only the most popular and useful ones from different domains. I hope it will get you excited enough to dig deeper into AWS. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjgzNDYwNyw1NDkzMjk3NjYsLTY5Mz
-cwODQxMSwxODY1NTE2MDYwXX0=
+eyJoaXN0b3J5IjpbODIwMTY3MTgzLDU0OTMyOTc2NiwtNjkzNz
+A4NDExLDE4NjU1MTYwNjBdfQ==
 -->
