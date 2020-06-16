@@ -67,12 +67,12 @@ The server for executing the function is provisioned at the time of invocation. 
  
 # Monitor/Log with Cloudwatch & Audit with Cloudtrail
 These do not have acronyms but are among the most important all-pervasive services in the AWS portfolio.
-**Cloudtrail** captures the audit information telling you who did what and when.
+**CloudTrail** captures the audit information telling you who did what and when.
 **Cloudwatch** encompasses services for logging, monitoring, and event handling. 
  
  # Conclusion
  I tried to provide a beginner level introduction to **AWS** using **acronyms**. I covered only the most popular and useful ones from different domains. I hope it will get you excited enough to dig deeper into AWS. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTMxNzYxNyw1NDkzMjk3NjYsLTY5Mz
+eyJoaXN0b3J5IjpbMjAwNjgzNDYwNyw1NDkzMjk3NjYsLTY5Mz
 cwODQxMSwxODY1NTE2MDYwXX0=
 -->
