@@ -62,7 +62,7 @@ Both **ECS** and **EKS** come with a **Fargate** option for provisioning EC2 ins
 # Serverless compute with lambda and SAM
 **Lambda** is the service for running functions in a serverless model. You provide your function written in one of the supported languages with enough permissions. 
 The server for executing the function is provisioned at the time of invocation. The infrastructure is dynamically scaled depending on the number of concurrent requests. 
-**Lambda** is commonly invoked by events from other AWS services like API Gateway, SQS, SNS, or Cloudwatch.
+**Lambda** is commonly invoked by events from other AWS services like **API Gateway**, **SQS**, **SNS**, or **Cloudwatch**.
 **SAM**-***Serverless Application Model*** is the framework for developing lambda applications with useful tools like a CLI, a local test environment based on docker, and integration with developer tools. 
  
 # Monitor/Log with Cloudwatch & Audit with Cloudtrail
@@ -71,8 +71,8 @@ These do not have acronyms but are among the most important all-pervasive servic
 **Cloudwatch** encompasses services for logging, monitoring, and event handling. 
  
  # Conclusion
- I tried to provide a beginner level introduction to AWS using acronyms. I covered only the most popular and useful ones from different domains. I hope it will get you excited enough to dig deeper into AWS. 
+ I tried to provide a beginner level introduction to **AWS** using **acronyms**. I covered only the most popular and useful ones from different domains. I hope it will get you excited enough to dig deeper into AWS. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDUwODE3NSw1NDkzMjk3NjYsLTY5Mz
+eyJoaXN0b3J5IjpbLTYzOTMxNzYxNyw1NDkzMjk3NjYsLTY5Mz
 cwODQxMSwxODY1NTE2MDYwXX0=
 -->
