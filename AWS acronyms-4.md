@@ -54,7 +54,7 @@ Access to Queues and Topics are managed using **resource policies**.
 
 # Pull images from ECR to run containers on ECS & EKS
 **ECR**-***Elastic Container Registry*** provides a private registry for your docker images with access controlled by **IAM**.
-**ECS**-***Elastic Container Service*** is the container orchestration service for running stateless and stateful containers using **tasks** and **services**.  You will find a series of articles to deploy your containers to ECS.
+**ECS**-***Elastic Container Service*** is the container orchestration service for running stateless and stateful containers using **tasks** and **services**.  You can start your AWS journey with containers by following these series of articles .
 **EKS**-***Elastic Kubernetes Service*** is the managed Kubernetes offering from AWS for running containers.
 Both **ECS** and **EKS** come with a **Fargate** option for provisioning EC2 instances in a serverless way.
 
@@ -72,6 +72,6 @@ These do not have acronyms but are among the most important all-pervasive servic
  # Conclusion
  I tried to provide a beginner level introduction to AWS using acronyms. I covered only the most popular and useful ones from different domains. I hope it will get you excited enough to dig deeper into AWS. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDQ1NjU5NiwtNjkzNzA4NDExLDE4Nj
+eyJoaXN0b3J5IjpbLTcxODM0Mzg2NCwtNjkzNzA4NDExLDE4Nj
 U1MTYwNjBdfQ==
 -->
