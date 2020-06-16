@@ -4,7 +4,7 @@
 An ***acronym*** is a word formed from the first few letters or groups of letters in a name or phrase. It is a memory technique that helps us associate the information we want to remember with a simple shortcut.
 Today **Acronyms** are dominating any AWS conversation. Everybody uses them, even if they don’t know their name. 
 
-# VM with EC2 of AMI type & attached to 1 or more EBS
+# Create VM with EC2 of AMI type & attached to 1 or more EBS
 We start our AWS acronym journey with a **VM**- ***Virtual Machine***. A virtual machine is a computer with an OS and RAM on which we run our applications. 
 **EC2** -***Elastic compute*** is the service used to create VMs using an **AMI**. **AMI**- ***Amazon machine image*** can be thought of as a pre-built template containing the OS to be used along with applications installed over it. 
 Each **EC2** instance is backed up by storage in the form of **EBS**-***Elastic Block storage*** which can be attached and mounted as disks to your **VM**. 
@@ -72,5 +72,5 @@ These do not have acronyms but are among the most important all-pervasive servic
  # Conclusion
  I tried to provide a beginner level introduction to AWS using acronyms. I covered only the most popular and useful ones from different domains. I hope it will get you excited enough to dig deeper into AWS. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDIzNjMzNDcsMTg2NTUxNjA2MF19
+eyJoaXN0b3J5IjpbLTY5MzcwODQxMSwxODY1NTE2MDYwXX0=
 -->
