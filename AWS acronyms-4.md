@@ -57,3 +57,6 @@ These do not have acronyms but among the most important all pervasive services i
  
  # Conclusion
  I tried to provide a beginner level introduction to AWS using acronyms. I covered only the most popular and useful ones from different domains. I hope it will get you excited to dig deeper into AWS. 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTg2NTUxNjA2MF19
+-->
