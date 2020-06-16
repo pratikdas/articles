@@ -17,12 +17,12 @@ An **AWS region** is a physical location containing a group of data centers. Eac
 
 # Create your network-VPC
 **VPC**-***Virtual Private Cloud*** is our private network. A **VPC** network is created within an AWS region. We specify a pool of IP addresses for our **VPC** by specifying the IP range in  **CIDR**-***Classless Interdomain routing*** notation. 
-The **VPC** is divided into multiple subnets each associated with a subset of IP addresses allocated to the parent **VPC**. Our **EC2** instances are launched within a subnet with IP addresses assigned from the subnet's pool of IP addresses of the subnet. 
-You can reserve IPs that are reachable from the internet for your EC2 instances using **EIP**-***Elastic IP Addresses***. 
+The **VPC** is divided into multiple subnets each associated with a subset of IP addresses allocated to the parent **VPC**. Our **EC2** instances are launched within a subnet with IP addresses assigned from the subnet's pool of IP addresses. 
+Additionally, you can reserve IPs that are reachable from the internet for your EC2 instances using **EIP**-***Elastic IP Addresses***. 
 
 ### Protect your instance with SG and subnet with ACL
-You can control traffic for an EC2 instance using **SG**-***Security Group*** where you set up rules for incoming traffic-ingress and outgoing traffic - egress.
-However, you can control traffic for an entire subnet using **ACL**-***Access Control List***
+You can control traffic for an **EC2** instance using **SG**-***Security Group*** where you set up rules for incoming traffic-**ingress** and outgoing traffic - **egress**.
+However, you can control traffic for an entire subnet using a network **ACL**-***Access Control List***
 
 ### Connect to on-premise systems over VPN or DX
 Connect to your on-premise servers using **VPN**-***Virtual Private Network*** or a dedicated leased line ***DX***- **AWS Direct Connect**. VPN is a secure connection over the internet while DX is a dedicated high-speed network connection between AWS and our private network.
@@ -76,7 +76,7 @@ These do not have acronyms but are among the most important all-pervasive servic
  # Conclusion
  I tried to provide a beginner level introduction to **AWS** using **acronyms**. I covered only the most popular and useful ones from different domains. I hope it will get you excited enough to dig deeper into AWS. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4NTc4OTg2LC0xODQ2ODY4MDk2LC0yND
-MzOTU5MDIsMTAwMjk1MTMxMyw4MjAxNjcxODMsNTQ5MzI5NzY2
-LC02OTM3MDg0MTEsMTg2NTUxNjA2MF19
+eyJoaXN0b3J5IjpbMTQ4MDUxNjkwNCwtMTg0Njg2ODA5NiwtMj
+QzMzk1OTAyLDEwMDI5NTEzMTMsODIwMTY3MTgzLDU0OTMyOTc2
+NiwtNjkzNzA4NDExLDE4NjU1MTYwNjBdfQ==
 -->
